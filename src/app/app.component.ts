@@ -9,6 +9,7 @@ export class AppComponent {
   answer: string;
   @ViewChild('myForm') formEl;
   default = 'pet'
+  genders = ['male', 'female']
   
   suggestUserName() {
     const suggestedName = 'Superuser';
