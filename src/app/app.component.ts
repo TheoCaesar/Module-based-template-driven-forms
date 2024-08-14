@@ -7,6 +7,8 @@ import { Component, ElementRef, ViewChild } from '@angular/core';
 })
 export class AppComponent {
   @ViewChild('myForm') formEl;
+  default = 'pet'
+  
   suggestUserName() {
     const suggestedName = 'Superuser';
   }

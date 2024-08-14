@@ -19,7 +19,7 @@
         </div>
         <div class="form-group">
           <label for="secret">Secret Questions</label>
-          <select id="secret" class="form-control" name="secret" ngModel required>
+          <select id="secret" class="form-control" name="secret" [(ngModel)]="default" required>
             <option value="pet">Your first Pet?</option>
             <option value="teacher">Your first teacher?</option>
           </select>
